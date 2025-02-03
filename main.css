@@ -1,0 +1,147 @@
+/* Ustawienie czcionki Calibri dla całego dokumentu */
+body {
+    font-family: Calibri, sans-serif;
+}
+
+/* Styl dla nagłówków */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Verdana, sans-serif; /* Ustawienie czcionki na Verdana */
+}
+
+h1 {
+    font-size: 48px; /* Ustawienie wielkości czcionki na 48px */
+    margin: 12px 0; /* Zmniejszenie marginesów górnych i dolnych na 12px */
+}
+
+h2,
+h3 {
+    margin: 12px 0; /* Zmniejszenie marginesów górnych i dolnych na 12px */
+}
+
+h4,
+h5,
+h6 {
+    margin: 6px 0; /* Zmniejszenie marginesów górnych i dolnych na 6px */
+}
+
+/* Usunięcie marginesów ze znacznika body */
+body {
+    margin: 0;
+}
+
+/* Ustawienie jasnego i ciepłego koloru tła dla całego dokumentu */
+body {
+    background-color: LightGoldenrodYellow;
+}
+
+/* Ustawienie minimalnej szerokości strony na 600px, z zachowaniem marginesów po lewej i prawej stronie */
+body {
+    min-width: 600px;
+    padding: 0 24px; /* Marginesy po lewej i prawej stronie */
+}
+
+/* Wyrównanie wszystkich tytułów w części nagłówkowej (<header>) do środka */
+header {
+    text-align: center;
+}
+
+/* Wyrównanie wszystkich tekstów w stopce (<footer>) do prawej strony */
+footer {
+    text-align: right;
+}
+
+/* Ustawienie wyraźniejszego koloru tła dla nagłówka i stopki na Goldenrod */
+header,
+footer {
+    background-color: Goldenrod;
+}
+
+/* Ustawienie pośredniego tła dla menu, prologu i dodatkowych informacji na PaleGoldenrod */
+nav,
+section:not(main),
+aside {
+    background-color: PaleGoldenrod;
+}
+
+/* W liście punktowanej (ul) przesunięcie pozycji znaku wypunktowania na obszar tekstu */
+ul {
+    list-style-position: inside;
+}
+
+/* W liście numerowanej (ol) zmiana stylu numerowania na duże liczby rzymskie */
+ol {
+    list-style-type: upper-roman;
+}
+
+/* W liście definicji (dl) podkreślenie pytania/zagadnienia */
+dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Styl dla tabeli */
+table {
+    border-collapse: collapse; /* Scalanie granic */
+}
+
+/* Styl dla nagłówków tabeli */
+th {
+    text-align: left; /* Wyrównanie do lewej */
+    border: 1px solid Peru; /* Obramowanie 1px w kolorze jasnego brązu */
+    padding: 3px 6px; /* Margines wewnętrzny */
+}
+
+/* Styl dla zwykłych komórek tabeli */
+td {
+    text-align: right; /* Wyrównanie do prawej */
+    border: 1px solid Peru; /* Obramowanie 1px w kolorze jasnego brązu */
+    padding: 3px 6px; /* Margines wewnętrzny */
+}
+
+/* Styl dla pierwszej komórki w wierszu tabeli */
+tr:first-child th {
+    border-top: 2px solid Sienna; /* Ramka górna 2px w kolorze ciemnego brązu */
+}
+
+/* Styl dla ostatniej komórki w wierszu tabeli */
+tr:last-child th,
+tr:last-child td {
+    border-bottom: 2px solid Sienna; /* Ramka dolna 2px w kolorze ciemnego brązu */
+}
+
+/* Styl dla pierwszej komórki w kolumnie tabeli */
+tr th:first-child {
+    border-left: 2px solid Sienna; /* Ramka lewa 2px w kolorze ciemnego brązu */
+}
+
+/* Styl dla ostatniej komórki w kolumnie tabeli */
+tr th:last-child,
+tr td:last-child {
+    border-right: 2px solid Sienna; /* Ramka prawa 2px w kolorze ciemnego brązu */
+}
+
+.ciast_photo1 {
+    margin-left: 225px;
+}
+
+.ciast_photo2 {
+    margin-left: 410px;
+}
+
+.ciast_photo3 {
+    margin-left: 500px;
+}
+
+.text_1 {
+    margin-left: 515px;
+    font-size: 20px;
+}
+
+.text_2 {
+    font-size: 20px;
+}
